@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import './../styles/RandomQuote.scss';
+import './../styles/randomQuote.scss';
 
 const RandomQuote = () => {
   const [quote, setQuote] = useState<string | null>(null);
