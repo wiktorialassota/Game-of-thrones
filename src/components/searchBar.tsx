@@ -1,5 +1,5 @@
 import React from 'react';
-import './../styles/searchBar.scss';
+import './../styles/searchbar.scss';
 
 type SearchBarProps = {
   searchTerm: string;
