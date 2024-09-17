@@ -5,7 +5,7 @@ function Navbar () {
     return (
       <nav className="navbar">
       <h1>Game of Thrones Quotes</h1>
-      <Link to="/" className="navbar-link">Home</Link> 
+      <Link to="/Game-of-thrones/" className="navbar-link">Home</Link> 
     </nav>       
     );
   };
