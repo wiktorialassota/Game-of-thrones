@@ -27,7 +27,7 @@ const QuoteCarousel = ({ characterName, numberOfQuotes = 10 }: QuoteCarouselProp
         const data = await response.json();
 
         if (data.length === 0) {
-          setError("No quotes found for this character.");
+          setError("No quotes found for this character");
         } else {
           setQuotes(data.map((quoteObj: { sentence: string }) => quoteObj.sentence));
         }
